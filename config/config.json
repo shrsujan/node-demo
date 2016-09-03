@@ -1,0 +1,8 @@
+{
+  "versions": {
+    "v1": {
+      "name": "v1",
+      "prefix": "/api/v1"
+    }
+  }
+}
