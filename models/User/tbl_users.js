@@ -47,14 +47,12 @@ var users = db.define('user', {
     createdAt: {
         type: Sequelize.DATE,
         field: 'createdAt',
-        allowNull: false,
-        defaultValue: Sequelize.literal('CURRENT_TIMESTAMP')
+        allowNull: false
     },
     updatedAt: {
         type: Sequelize.DATE,
         field: 'updatedAt',
-        allowNull: false,
-        defaultValue: Sequelize.literal('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP')
+        allowNull: false
     }
 });
 
