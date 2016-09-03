@@ -4,5 +4,13 @@
       "name": "v1",
       "prefix": "/api/v1"
     }
+  },
+  "db": {
+    "database": "node_demo",
+    "user": "root",
+    "password": "root123",
+    "host": "localhost",
+    "dialect": "mysql",
+    "timezone": "+05:45"
   }
 }
