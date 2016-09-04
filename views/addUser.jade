@@ -1,0 +1,24 @@
+form.form-horizontal(ng-submit='addUser()')
+    .form-group
+        label.col-sm-4.control-label
+            h3 Add User
+        .col-sm-8
+    .form-group
+        label.col-sm-2.control-label First Name
+        .col-sm-10
+            input.form-control(type='text', placeholder='First Name', ng-model='newUser.first_name')
+    .form-group
+        label.col-sm-2.control-label Last Name
+        .col-sm-10
+            input.form-control(type='text', placeholder='Last Name', ng-model='newUser.last_name')
+    .form-group
+        label.col-sm-2.control-label Username
+        .col-sm-10
+            input.form-control(type='text', placeholder='Username', ng-model='newUser.username')
+    .form-group
+        label.col-sm-2.control-label Email
+        .col-sm-10
+            input.form-control(type='text', placeholder='Email', ng-model='newUser.email')
+    .form-group
+        .col-sm-offset-2.col-sm-10
+            button.btn.btn-default(type='submit') Submit

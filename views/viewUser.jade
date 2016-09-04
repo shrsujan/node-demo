@@ -1,0 +1,12 @@
+button(class='btn btn-success glyphicon glyphicon-plus pull-right center', ui-sref='addUser')
+table.center.table
+    tr
+        th ID
+        th NAME
+        th USERNAME
+        th EMAIL
+    tr(ng-repeat='user in users')
+        td {{ user.id }}
+        td {{ user.first_name + ' ' + user.last_name }}
+        td {{ user.username }}
+        td {{ user.email }}

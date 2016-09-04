@@ -1,0 +1,8 @@
+button(class='btn btn-success glyphicon glyphicon-plus pull-right center', ui-sref='addCourse')
+table.center.table
+    tr
+        th ID
+        th NAME
+    tr(ng-repeat='course in courses')
+        td {{ course.id }}
+        td {{ course.name }}
